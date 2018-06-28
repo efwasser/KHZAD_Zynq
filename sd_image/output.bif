@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]C:\Users\Wasserman5\Desktop\XUP\KHAZAD_Zynq\KHAZAD_Zynq.sdk\FSBL\Debug\FSBL.elf
+	C:\Users\Wasserman5\Desktop\XUP\KHAZAD_Zynq\KHAZAD_Zynq.sdk\design_1_wrapper_hw_platform_0\design_1_wrapper.bit
+	C:\Users\Wasserman5\Desktop\XUP\KHAZAD_Zynq\KHAZAD_Zynq.sdk\KHAZAD_Zynq_program\Debug\KHAZAD_Zynq_program.elf
+}
