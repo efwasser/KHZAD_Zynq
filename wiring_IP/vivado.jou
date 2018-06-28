@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Jun 28 21:48:00 2018
+# Process ID: 11988
+# Current directory: C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17712 C:\Users\Wasserman5\Desktop\XUP\ip\wiring_IP\wiring_IP.xpr
+# Log file: C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP/vivado.log
+# Journal file: C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP/wiring_IP.xpr
+close_project

@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Jun 28 21:48:00 2018
+# Process ID: 11988
+# Current directory: C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17712 C:\Users\Wasserman5\Desktop\XUP\ip\wiring_IP\wiring_IP.xpr
+# Log file: C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP/vivado.log
+# Journal file: C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP/wiring_IP.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:57 . Memory (MB): peak = 669.672 ; gain = 89.992
+close_project
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP/wiring_IP.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 21:52:52 2018...
+close_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:20 . Memory (MB): peak = 683.418 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 28 21:52:59 2018...

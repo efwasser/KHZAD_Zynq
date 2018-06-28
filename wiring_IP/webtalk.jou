@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Jun 28 21:52:49 2018
+# Process ID: 17152
+# Current directory: C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP
+# Command line: wbtcv.exe -mode batch -source C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP/wiring_IP.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP/webtalk.log
+# Journal file: C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Wasserman5/Desktop/XUP/ip/wiring_IP/wiring_IP.hw/webtalk/labtool_webtalk.tcl -notrace

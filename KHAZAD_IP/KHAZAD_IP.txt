@@ -1,0 +1,33 @@
+/********************************************************************************************************
+*********************************************************************************************************
+Zynq-7000 based Implementation of the KHAZAD Block Cipher
+Yossef Shitzer & Efraim Wasserman
+Jerusalem College of Technology - Lev Academic Center (JCT)
+Department of electrical and electronic engineering
+2018
+*********************************************************************************************************
+*********************************************************************************************************
+This IP implements the complete KHAZAD algorithm, using only the round_function_plus module and a finite-state machine (FSM).
+A full operation takes 24 clock-cycles: 9 cycles to calculate nine 64-bit round keys, 7 cycles to calculate seven 64-bit inverse decryption keys, 
+and 8 cycles to perform 8-rounds encryption/decryption.
+*********************************************************************************************************
+*********************************************************************************************************
+Inputs & outputs description:
+Input data_in: 64-bit data, plaintext (for encryption) or ciphertext (for decryption).
+Input key_in: 128-bit secret key.
+Input CLK: clock pulses.
+Input RST: design reset signal.
+Input enc: the desired operation. enc = 1: encryption, enc = 0: decryption.
+Input start: start operation signal. start = 1: begin operation, start = 0: on idle.
+Input only_data: indicates the key period. only_data = 1: new data_in, same key. only_data = 0: new data_in and new key_in, need to recalculate round keys.
+Output data_out: 64-bit data, ciphertext (for encryption) or plaintext (for decryption).
+Output last_round: 1-clock-cycle-width pulse indicates the last round is being calculated. When the flag turns on, last round has begun. When the flag 
+turns off, last round has ended, and data_out is valid.
+*********************************************************************************************************
+*********************************************************************************************************
+The KHAZAD algorithm is described in: 
+P. Barreto and V. Rijmen, The Khazad Legacy-Level Block Cipher
+available at: 
+https://www.cosic.esat.kuleuven.be/nessie/tweaks.html
+*********************************************************************************************************
+*********************************************************************************************************/
