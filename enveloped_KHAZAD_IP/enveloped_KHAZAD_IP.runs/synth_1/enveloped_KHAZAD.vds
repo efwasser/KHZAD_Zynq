@@ -1,0 +1,363 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Jun 25 18:11:09 2018
+# Process ID: 1956
+# Current directory: C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.runs/synth_1
+# Command line: vivado.exe -log enveloped_KHAZAD.vds -mode batch -messageDb vivado.pb -notrace -source enveloped_KHAZAD.tcl
+# Log file: C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.runs/synth_1/enveloped_KHAZAD.vds
+# Journal file: C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source enveloped_KHAZAD.tcl -notrace
+Command: synth_design -top enveloped_KHAZAD -part xc7z010clg400-1 -flatten_hierarchy full
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-1223] The version limit for your license is '2017.03' and will expire in -451 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 266.023 ; gain = 93.957
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'enveloped_KHAZAD' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/CBC/enveloped_KHAZAD.v:19]
+INFO: [Synth 8-638] synthesizing module 'op_mode_enc' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/CBC/op_mode_enc.v:15]
+INFO: [Synth 8-256] done synthesizing module 'op_mode_enc' (1#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/CBC/op_mode_enc.v:15]
+INFO: [Synth 8-638] synthesizing module 'KHAZAD' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/KHAZAD.v:34]
+INFO: [Synth 8-638] synthesizing module 'round_function_plus' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/round_function_plus.v:23]
+INFO: [Synth 8-638] synthesizing module 'gamma' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/gamma.v:17]
+INFO: [Synth 8-638] synthesizing module 'S_box' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/S_box.v:17]
+INFO: [Synth 8-638] synthesizing module 'P_mini_box' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/P_mini_box.v:17]
+INFO: [Synth 8-256] done synthesizing module 'P_mini_box' (2#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/P_mini_box.v:17]
+INFO: [Synth 8-638] synthesizing module 'Q_mini_box' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/Q_mini_box.v:17]
+INFO: [Synth 8-256] done synthesizing module 'Q_mini_box' (3#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/Q_mini_box.v:17]
+INFO: [Synth 8-256] done synthesizing module 'S_box' (4#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/S_box.v:17]
+INFO: [Synth 8-256] done synthesizing module 'gamma' (5#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/gamma.v:17]
+INFO: [Synth 8-638] synthesizing module 'theta' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/theta.v:19]
+INFO: [Synth 8-638] synthesizing module 'row_mult' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/row_mult.v:17]
+INFO: [Synth 8-638] synthesizing module 'poly_mult' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/poly_mult.v:17]
+INFO: [Synth 8-256] done synthesizing module 'poly_mult' (6#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/poly_mult.v:17]
+INFO: [Synth 8-256] done synthesizing module 'row_mult' (7#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/row_mult.v:17]
+INFO: [Synth 8-256] done synthesizing module 'theta' (8#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/theta.v:19]
+INFO: [Synth 8-256] done synthesizing module 'round_function_plus' (9#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/round_function_plus.v:23]
+INFO: [Synth 8-256] done synthesizing module 'KHAZAD' (10#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/ECB/KHAZAD.v:34]
+INFO: [Synth 8-638] synthesizing module 'CBC_dec_memory' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/CBC/CBC_dec_memory.v:17]
+INFO: [Synth 8-256] done synthesizing module 'CBC_dec_memory' (11#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/CBC/CBC_dec_memory.v:17]
+INFO: [Synth 8-638] synthesizing module 'op_mode_dec' [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/CBC/op_mode_dec.v:15]
+INFO: [Synth 8-256] done synthesizing module 'op_mode_dec' (12#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/CBC/op_mode_dec.v:15]
+INFO: [Synth 8-256] done synthesizing module 'enveloped_KHAZAD' (13#1) [C:/Users/Wasserman5/Desktop/XUP/ip/enveloped_KHAZAD_IP/enveloped_KHAZAD_IP.srcs/sources_1/imports/enc/CBC/enveloped_KHAZAD.v:19]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 302.402 ; gain = 130.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 302.402 ; gain = 130.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 302.402 ; gain = 130.336
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-802] inferred FSM for state register 'ctrl_reg' in module 'KHAZAD'
+INFO: [Synth 8-5546] ROM "last_round" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "only_theta_req" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctrl" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inv_round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inv_round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inv_round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inv_round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inv_round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inv_round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inv_round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "round_keys" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ctrl" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                            00000 |                            00000
+                 iSTATE0 |                            00001 |                            00001
+                 iSTATE1 |                            00010 |                            00010
+                 iSTATE2 |                            00011 |                            00011
+                 iSTATE3 |                            00100 |                            00100
+                 iSTATE4 |                            00101 |                            00101
+                 iSTATE5 |                            00110 |                            00110
+                 iSTATE6 |                            00111 |                            00111
+                 iSTATE7 |                            01000 |                            01000
+                 iSTATE8 |                            01001 |                            01001
+                 iSTATE9 |                            01010 |                            01010
+                iSTATE10 |                            01011 |                            01011
+                iSTATE11 |                            01100 |                            01100
+                iSTATE12 |                            01101 |                            01101
+                iSTATE13 |                            01110 |                            01110
+                iSTATE14 |                            01111 |                            01111
+                iSTATE15 |                            10000 |                            10000
+                iSTATE16 |                            10001 |                            10001
+                iSTATE17 |                            10010 |                            10010
+                iSTATE18 |                            10011 |                            10011
+                iSTATE19 |                            10100 |                            10100
+                iSTATE20 |                            10101 |                            10101
+                iSTATE21 |                            10110 |                            10110
+                iSTATE22 |                            10111 |                            10111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'ctrl_reg' using encoding 'sequential' in module 'KHAZAD'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 368.238 ; gain = 196.172
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 9     
+	   8 Input     64 Bit         XORs := 1     
+	   2 Input      8 Bit         XORs := 448   
+	   3 Input      8 Bit         XORs := 64    
+	   2 Input      1 Bit         XORs := 336   
+	   3 Input      1 Bit         XORs := 72    
++---Registers : 
+	               64 Bit    Registers := 22    
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 17    
+	  24 Input     64 Bit        Muxes := 3     
+	  26 Input      5 Bit        Muxes := 1     
+	  24 Input      1 Bit        Muxes := 25    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module op_mode_enc 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+Module P_mini_box 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 7     
+	   3 Input      1 Bit         XORs := 1     
+Module Q_mini_box 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 7     
+	   3 Input      1 Bit         XORs := 2     
+Module poly_mult 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 7     
+	   3 Input      8 Bit         XORs := 1     
+Module theta 
+Detailed RTL Component Info : 
++---XORs : 
+	   8 Input     64 Bit         XORs := 1     
+Module round_function_plus 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+Module KHAZAD 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 3     
++---Registers : 
+	               64 Bit    Registers := 20    
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 12    
+	  24 Input     64 Bit        Muxes := 3     
+	  26 Input      5 Bit        Muxes := 1     
+	  24 Input      1 Bit        Muxes := 25    
+Module CBC_dec_memory 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 2     
+Module op_mode_dec 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:37 ; elapsed = 00:00:43 . Memory (MB): peak = 430.773 ; gain = 258.707
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 433.133 ; gain = 261.066
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 433.133 ; gain = 261.066
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:07 . Memory (MB): peak = 512.551 ; gain = 340.484
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:59 ; elapsed = 00:01:07 . Memory (MB): peak = 512.551 ; gain = 340.484
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:07 . Memory (MB): peak = 512.551 ; gain = 340.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:03 ; elapsed = 00:01:11 . Memory (MB): peak = 512.551 ; gain = 340.484
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:03 ; elapsed = 00:01:11 . Memory (MB): peak = 512.551 ; gain = 340.484
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:03 ; elapsed = 00:01:11 . Memory (MB): peak = 512.551 ; gain = 340.484
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:06 ; elapsed = 00:01:14 . Memory (MB): peak = 512.551 ; gain = 340.484
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:06 ; elapsed = 00:01:14 . Memory (MB): peak = 512.551 ; gain = 340.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:06 ; elapsed = 00:01:15 . Memory (MB): peak = 512.551 ; gain = 340.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |   113|
+|3     |LUT3  |   175|
+|4     |LUT4  |   163|
+|5     |LUT5  |   325|
+|6     |LUT6  |   953|
+|7     |MUXF7 |   128|
+|8     |MUXF8 |    57|
+|9     |FDRE  |  1415|
+|10    |IBUF  |   263|
+|11    |OBUF  |    65|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  3658|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:06 ; elapsed = 00:01:15 . Memory (MB): peak = 512.551 ; gain = 340.484
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:00 ; elapsed = 00:01:01 . Memory (MB): peak = 512.551 ; gain = 320.746
+Synthesis Optimization Complete : Time (s): cpu = 00:01:07 ; elapsed = 00:01:15 . Memory (MB): peak = 512.551 ; gain = 340.484
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 263 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'enveloped_KHAZAD' is not ideal for floorplanning, since the cellview 'enveloped_KHAZAD' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 533.813 ; gain = 345.902
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.199 . Memory (MB): peak = 533.813 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 25 18:12:36 2018...

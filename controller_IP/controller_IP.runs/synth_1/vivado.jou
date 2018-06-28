@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Jun 25 17:55:43 2018
+# Process ID: 8912
+# Current directory: C:/Users/Wasserman5/Desktop/XUP/ip/controller_IP/controller_IP.runs/synth_1
+# Command line: vivado.exe -log controller.vds -mode batch -messageDb vivado.pb -notrace -source controller.tcl
+# Log file: C:/Users/Wasserman5/Desktop/XUP/ip/controller_IP/controller_IP.runs/synth_1/controller.vds
+# Journal file: C:/Users/Wasserman5/Desktop/XUP/ip/controller_IP/controller_IP.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source controller.tcl -notrace
